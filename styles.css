@@ -23,6 +23,7 @@
 }
 
 * { box-sizing: border-box; }
+figure { margin: 0; }
 
 html {
   scroll-behavior: smooth;
@@ -237,11 +238,13 @@ input:focus-visible {
 
 .hero-art {
   width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
   border-radius: 16px;
   overflow: hidden;
   background: var(--brown);
 }
-.hero-art svg { width: 100%; height: auto; display: block; }
+.hero-art svg { width: 100%; height: auto; display: block; margin: 0 auto; }
 .hero-art figcaption {
   font-size: 0.78rem;
   color: var(--brown-faint);
